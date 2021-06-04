@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Origami tas</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet/styles.css" />
+</head>
+
+<body>
+    <header class="container">
+        <div class="logo-head">
+            <h1 class="logo">origami-tas</h1>
+        </div>
+        <div class="navbar">
+            <nav>
+                <ul class="main-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="maken.html">ZELF DOEN</a></li>
+                    <li class="nav-item"><a class="nav-link current-page" href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="top-container-contact">
+                <p class="top-container-contact-content">
+                    Wilt u een tas bestellen of heeft u vragen vul dan onderstaand formulier in. <br />
+                    Wij nemen dan zo snel mogelijk contact met u op.
+                </p>
+            </div>
+            <div class="contact-form">
+                <form class="form" name="contact" method="POST" data-netlify="true">
+                    <input class="form-content" placeholder="Uw Naam" type="text" name="naam"><br />
+                    <input class="form-content" placeholder="Uw E-mail" type="email" name="email"><br />
+                    <input class="form-content" placeholder="Uw Telefoon" type="tel" name="tel"><br />
+                    <input class="form-content" placeholder="Uw Adres" type="text" name="adres"><br />
+                    <div>
+                        <span class="form-radio">
+                            <label>Kies een stijl</label>
+                        </span>
+                        <span class="form-checkbox">
+                            <label>Kies een maat</label>
+                        </span>
+                    </div>
+                    <div>
+                        <span class="form-radio">
+                            <input type="radio" id="stijl" name="stijl" value="graphic">
+                            <label for="graphic">Graphic</label>
+                        </span>
+                        <span class="form-checkbox">
+                            <input type="checkbox" id="iniemienie" name="iniemienie" value="checked">
+                            <label for="iniemienie">Iniemienie</label>
+                        </span>
+                    </div>
+                    <div>
+                        <span class="form-radio">
+                            <input type="radio" id="stijl" name="stijl" value="market">
+                            <label for="market">Market</label>
+                        </span>
+                        <span class="form-checkbox">
+                            <input type="checkbox" id="preciesgoed" name="preciesgoed" value="checked">
+                            <label for="preciesgoed">Precies goed</label>
+                        </span>
+                    </div>
+                    <div>
+                        <span class="form-radio">
+                            <input type="radio" id="stijl" name="stijl" value="sleek">
+                            <label for="sleek">Sleek</label>
+                        </span>
+                        <span class="form-checkbox">
+                            <input type="checkbox" id="grand" name="grand" value="checked">
+                            <label for="grand">Grand</label>
+                        </span>
+                    </div>
+                    <div>
+                        <span class="form-radio">
+                            <input type="radio" id="stijl" name="stijl" value="leathery">
+                            <label for="leathery">Leathery</label>
+                        </span>
+                        <span class="form-checkbox">
+                            <input type="checkbox" id="larger" name="larger" value="checked">
+                            <label for="larger">Larger then life</label>
+                        </span>
+                    </div>
+                    <textarea class="form-textarea" placeholder="Uw Opmerkingen en vragen"></textarea><br />
+
+                    <button class="form-button" type="reset">Annuleren</button>
+                    <button class="form-button" type="submit">Verstuur</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Copyright 2021 - SIR productions. </p>
+    </footer>
+</body>
+
+</html>
